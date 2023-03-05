@@ -1,0 +1,38 @@
+.App-Content{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+/* .nav-tools{
+    background-color: black;
+} */
+.nav-tool{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.nav-tool:hover{
+    color: gold;
+}
+.about{
+    color: white;
+}
+
+.title{
+    font-size: 50px;
+    color: #dfddd9;
+}
+.item-list{
+    display: inline-block;
+    width: 50%;
+    
+}
+.item-content{
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.item-head{
+    font-size: 30px;
+    cursor: pointer;
+}
