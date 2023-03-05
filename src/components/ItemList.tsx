@@ -5,7 +5,7 @@ import ItemRenderer from './ItemRenderer'
 
 const ItemList = (list:ItemProp) => {
   const [desc, setDesc] = useState<String | null>("brn")
-  const [titleColor, setTitleColor] = useState('white');
+  // const [titleColor, setTitleColor] = useState('white');
   const [images,setImages] = useState("d");
   function changeContent(item:Item){
     setDesc(item.desc)
@@ -18,7 +18,7 @@ const ItemList = (list:ItemProp) => {
       <div className='item-list'>
         {list.items.map((item)=>{
                     return(
-                        <div className='item' style={{color:titleColor}} id={item.id} onClick={()=>{changeContent(item)} }>
+                        <div className='item' id={item.id} onClick={()=>{changeContent(item)} }>
                           <ItemRenderer id={item.id} name ={item.name} images={item.images} desc={item.desc} />
                         </div>
                     )
