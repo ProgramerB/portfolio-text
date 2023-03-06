@@ -5,7 +5,10 @@
 .head{
   /* background-color: black; */
   font-size: 30px;
-  text-align: center;
   color: white;
+  margin-left: 5%;
+  padding-top: 20px;
+  margin-bottom: 20px;
   text-transform: uppercase;
+  text-decoration: underline;
 }

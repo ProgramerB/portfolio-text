@@ -41,6 +41,8 @@ export const illustrator_list:Item[] = [
         name:'titan',
         desc: 'red',
         images: [
+            "http://via.placeholder.com/300x300",
+            "http://via.placeholder.com/300x300",
             "http://via.placeholder.com/300x300"
         ]
     }

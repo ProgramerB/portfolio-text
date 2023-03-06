@@ -1,21 +1,26 @@
 .App-Content{
     width: 90%;
+    height: 1000px;
     margin: 0 5% 0 5%;
 }
-/* .nav-tools{
-    background-color: black;
-} */
+.nav-tools{
+    text-align: center;
+    color: #dfddd9;
+    font-size: 50px;
+}
 .nav-tool{
-    display: block;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
     text-decoration: none;
     color: white;
     font-size: 50px;
 }
 .nav-tool:hover{
-    color: gold;
+    text-decoration: underline;
 }
 .about{
     color: white;
+    margin: 30px 0 30px 0;
 }
 
 .title{
@@ -32,7 +37,17 @@
     width: 50%;
     float: right;
 }
+.item-image{
+    width: 200px;
+    margin-left: 30px;
+}
 .item-head{
     font-size: 30px;
     cursor: pointer;
+}
+
+.footer{
+    background-color: #cecece;
+    text-align: center;
+    color: #000000;
 }

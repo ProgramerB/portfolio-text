@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import { Item, ItemProp } from './Item'
 import ItemRenderer from './ItemRenderer'
-
+import empty from '../images/Empty.png'
 
 const ItemList = (list:ItemProp) => {
-  const [desc, setDesc] = useState<String | null>("brn")
+  const [desc, setDesc] = useState<String | null>()
   // const [titleColor, setTitleColor] = useState('white');
-  const [images,setImages] = useState("d");
+  const [images,setImages] = useState([empty]);
   function changeContent(item:Item){
     setDesc(item.desc)
     // setTitleColor("black")
-    setImages(item.images[0])
+    setImages(item.images)
   }
 
   return (
@@ -29,7 +29,14 @@ const ItemList = (list:ItemProp) => {
           {desc}
         </div>
         <div className='item-images'>
-            <img className='image' src={images} alt="kk"/>
+          {
+            images.map((image)=>{
+              return(
+                <img className='item-image' src={image} alt="kk"/>
+              )
+            })
+          }
+            {/* <img className='image' src={images} alt="kk"/> */}
         </div>
       </div>
     </div>
