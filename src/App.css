@@ -1,11 +1,11 @@
 .App{
   font-family: Helvetica, sans-serif;
   transition: background-color 1s;
+  color: #dfddd9;
 }
 .head{
   /* background-color: black; */
-  font-size: 30px;
-  color: white;
+  font-size: 45px;
   margin-left: 5%;
   padding-top: 20px;
   margin-bottom: 20px;

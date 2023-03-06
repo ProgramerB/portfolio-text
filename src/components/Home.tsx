@@ -15,17 +15,17 @@ const Home = () => {
             <NavLink className='nav-tool' to="/blender">blender</NavLink>
         </nav>
         <nav className='nav-tools'>
-            <NavLink className='nav-tool' to="/photoshop" >video edits</NavLink>
+            <NavLink className='nav-tool' to="/video" >video edits</NavLink>
             |
-            <NavLink className='nav-tool' to="/illustrator">artwork</NavLink>
+            <NavLink className='nav-tool' to="/artwork">artwork</NavLink>
             |
-            <NavLink className='nav-tool' to="/blender">photography</NavLink>
+            <NavLink className='nav-tool' to="/photography">photography</NavLink>
         </nav>
         <nav className='nav-tools'>
-            <NavLink className='nav-tool' to="/photoshop" >design research</NavLink>
+            <NavLink className='nav-tool' to="/design" >design research</NavLink>
         </nav>
         <nav className='nav-tools'>
-            <NavLink className='nav-tool' to="/photoshop" >work</NavLink>
+            <NavLink className='nav-tool' to="/work" >work</NavLink>
         </nav>
     </div>
   )

@@ -5,27 +5,27 @@
 }
 .nav-tools{
     text-align: center;
-    color: #dfddd9;
     font-size: 50px;
 }
 .nav-tool{
+    color: #dfddd9;
+    width: 31%;
+    display: inline-block;
     text-align: center;
     margin: 0px 10px 0px 10px;
     text-decoration: none;
-    color: white;
     font-size: 50px;
 }
 .nav-tool:hover{
     text-decoration: underline;
 }
 .about{
-    color: white;
     margin: 30px 0 30px 0;
+    font-size: 20px;
 }
 
 .title{
     font-size: 50px;
-    color: #dfddd9;
 }
 .item-list{
     display: inline-block;

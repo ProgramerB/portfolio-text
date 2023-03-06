@@ -1,16 +1,16 @@
 import React from 'react'
-import { blender_list } from './Item'
+import { video_list } from './Item'
 import ItemList from './ItemList'
 
-const Blender = () => {
+const VideoEdits = () => {
   return (
     <div className='App-Content'>
       <div className='title'>
-        blender
+        video edits
       </div>
-      <ItemList items={blender_list}/>
+      <ItemList items={video_list} />
     </div>
   )
 }
 
-export default Blender
+export default VideoEdits

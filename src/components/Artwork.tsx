@@ -1,16 +1,16 @@
 import React from 'react'
-import { blender_list } from './Item'
+import { art_list } from './Item'
 import ItemList from './ItemList'
 
-const Blender = () => {
+const Artwork = () => {
   return (
     <div className='App-Content'>
       <div className='title'>
-        blender
+        art work
       </div>
-      <ItemList items={blender_list}/>
+      <ItemList items={art_list} />
     </div>
   )
 }
 
-export default Blender
+export default Artwork

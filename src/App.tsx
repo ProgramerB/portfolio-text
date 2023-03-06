@@ -7,6 +7,11 @@ import Illustrator from './components/Illustrator';
 import Blender from './components/Blender';
 import { useState, useEffect } from 'react';
 import Footer from './components/Footer';
+import VideoEdits from './components/VideoEdits';
+import Photography from './components/Photography';
+import Artwork from './components/Artwork';
+import Designre from './components/Designre';
+import Work from './components/Work';
 
 function App() {
   const colors = [
@@ -48,6 +53,11 @@ function App() {
             <Route path='/photoshop' element={<Photoshop />} />
             <Route path='/illustrator' element={<Illustrator />} />
             <Route path="/blender" element={<Blender />} />
+            <Route path="/video" element={<VideoEdits />} />
+            <Route path="/photography" element={<Photography />} />
+            <Route path="/artwork" element={<Artwork />} />
+            <Route path="/design" element={<Designre />} />
+            <Route path="/work" element={<Work/>} />
         </Routes>
       </BrowserRouter>
       <Footer />
