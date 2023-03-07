@@ -10,5 +10,11 @@
   padding-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  /* font-weight: 200; */
+}
+@media all and (max-width:800px){
+  .head{
+    font-size: 30px;
+  }
 }

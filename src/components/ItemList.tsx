@@ -25,10 +25,9 @@ const ItemList = (list:ItemProp) => {
             })}
       </div>
       <div className='item-content'>
-        <div className='item-desc'>
-          {desc}
-        </div>
         <div className='item-images'>
+        <img className='item-main-image' src={images[0]} alt="kk"/>
+        <div className='item-side-images'>
           {
             images.map((image)=>{
               return(
@@ -36,7 +35,10 @@ const ItemList = (list:ItemProp) => {
               )
             })
           }
-            {/* <img className='image' src={images} alt="kk"/> */}
+        </div>
+        </div>
+        <div className='item-desc'>
+          {desc}
         </div>
       </div>
     </div>

@@ -1,9 +1,14 @@
-import React from 'react'
+// import React, { useEffect, useState } from 'react'
 import { Item } from './Item'
 
 const ItemRenderer = (item:Item) => {
+  // const [color,setColor] = useState("black")
+  // function changeColor(){
+  //   setColor("white")
+  // }
+  
   return (
-    <div className='item-head'>
+    <div id={item.id} className='item-head'>
       {item.name}
     </div>
   )
