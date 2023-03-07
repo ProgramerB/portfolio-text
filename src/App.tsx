@@ -12,6 +12,7 @@ import Photography from './components/Photography';
 import Artwork from './components/Artwork';
 import Designre from './components/Designre';
 import Work from './components/Work';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const colors = [
@@ -44,10 +45,12 @@ function App() {
 
   return (
     <div className='App' style={{backgroundColor:bodyColor}}>
+      
       <div className='head'>
           Mridul Nadar
       </div>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/photoshop' element={<Photoshop />} />
