@@ -8,6 +8,7 @@ const Illustrator = () => {
       <div className='title'>
         illustrator
       </div>
+      <hr />
       <ItemList items={illustrator_list}/>
     </div>
   )

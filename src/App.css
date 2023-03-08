@@ -1,20 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
 .App{
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto";
   transition: background-color 1s;
   color: #dfddd9;
 }
+.head .prefix-left{
+  font-size: 20px;
+  display: inline-block;
+  width: 50%;
+  text-transform: lowercase;
+}
+.head .prefix-right{
+  font-size: 20px;
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+  margin-right: 5%;
+  text-transform: lowercase;
+}
+.head .prefix-bottom{
+  font-size: 20px;
+  text-align: right;
+  margin-right: 5%;
+}
 .head{
   /* background-color: black; */
-  font-size: 45px;
+  font-size: 70px;
   margin-left: 5%;
   padding-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
   /* text-decoration: underline; */
-  /* font-weight: 200; */
+  /* font-weight: 600; */
 }
 @media all and (max-width:800px){
   .head{
-    font-size: 30px;
+    font-size: 45px;
+    
   }
 }

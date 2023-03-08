@@ -24,7 +24,7 @@ function App() {
     '#350da3'
   ]
   function randomColor(){
-    return Math.floor(Math.random()*(colors.length - 1))
+    return Math.floor(Math.random()*(colors.length))
   }
 
   const [bodyColor, setBodyColor] = useState(colors[randomColor()])
@@ -47,7 +47,19 @@ function App() {
     <div className='App' style={{backgroundColor:bodyColor}}>
       
       <div className='head'>
-          Mridul Nadar
+          <div className='prefix-left'>
+            student
+          </div>
+          <div className='prefix prefix-right'>
+            atlas skilltech university, isdi
+          </div>
+          <div className='prefix prefix-bottom'>
+            2022-2026
+          </div>
+          <hr style={{margin:"30px 5% 30px 0px"}}/>
+          <div>
+            Mridul Nadar
+          </div>
       </div>
       <BrowserRouter>
         <ScrollToTop />

@@ -6,7 +6,7 @@ const Artwork = () => {
   return (
     <div className='App-Content'>
       <div className='title'>
-        art work
+        cartoon
       </div>
       <ItemList items={art_list} />
     </div>

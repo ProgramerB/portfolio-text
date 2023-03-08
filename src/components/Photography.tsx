@@ -1,7 +1,6 @@
 import React from 'react'
 import { photo_list } from './Item'
 import ItemList from './ItemList'
-
 const Photography = () => {
   return (
     <div className='App-Content'>

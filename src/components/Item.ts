@@ -1,3 +1,4 @@
+import poster1 from '../images/illustrator/poster/poster1.png'
 export type Item = {
     id: string
     name: string
@@ -67,6 +68,16 @@ export const illustrator_list:Item[] = [
         desc: 'red',
         images: [
             "http://via.placeholder.com/300x300",
+            "http://via.placeholder.com/300x300",
+            "http://via.placeholder.com/300x300"
+        ]
+    },
+    {
+        id:'4',
+        name:'infographics',
+        desc: 'red',
+        images: [
+            poster1,
             "http://via.placeholder.com/300x300",
             "http://via.placeholder.com/300x300"
         ]
