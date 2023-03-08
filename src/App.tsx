@@ -47,17 +47,19 @@ function App() {
     <div className='App' style={{backgroundColor:bodyColor}}>
       
       <div className='head'>
-          <div className='prefix-left'>
-            student
+          <div className='prefix'>
+            <div className='prefix-left'>
+              student
+            </div>
+            <div className='prefix prefix-right'>
+              atlas skilltech university, isdi
+            </div>
+            <div className='prefix prefix-bottom'>
+              2022-2026
+            </div>
           </div>
-          <div className='prefix prefix-right'>
-            atlas skilltech university, isdi
-          </div>
-          <div className='prefix prefix-bottom'>
-            2022-2026
-          </div>
-          <hr style={{margin:"30px 5% 30px 0px"}}/>
-          <div>
+          <hr style={{margin:"30px 5% 150px 0px"}}/>
+          <div className='title'>
             Mridul Nadar
           </div>
       </div>

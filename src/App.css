@@ -4,28 +4,9 @@
   transition: background-color 1s;
   color: #dfddd9;
 }
-.head .prefix-left{
-  font-size: 20px;
-  display: inline-block;
-  width: 50%;
-  text-transform: lowercase;
-}
-.head .prefix-right{
-  font-size: 20px;
-  display: inline-block;
-  width: 45%;
-  text-align: right;
-  margin-right: 5%;
-  text-transform: lowercase;
-}
-.head .prefix-bottom{
-  font-size: 20px;
-  text-align: right;
-  margin-right: 5%;
-}
 .head{
   /* background-color: black; */
-  font-size: 70px;
+  font-size: 20px;
   margin-left: 5%;
   padding-top: 20px;
   margin-bottom: 20px;
@@ -33,9 +14,36 @@
   /* text-decoration: underline; */
   /* font-weight: 600; */
 }
+.head .title{
+  font-weight: 900;
+}
+.head .prefix{
+  text-transform: lowercase;
+}
+.head .prefix-left{
+  display: inline-block;
+  width: 50%;
+}
+.head .prefix-right{
+  display: inline-block;
+  width: 45%;
+  float: right;
+  text-align: right;
+  margin-right: 5%;
+}
+.head .prefix-bottom{
+  text-align: right;
+  margin-right: 5%;
+}
+
 @media all and (max-width:800px){
   .head{
     font-size: 45px;
-    
+  }
+  .head .prefix{
+    font-size: 15px;
+  }
+  .head .prefix-bottom{
+   display: none;
   }
 }
