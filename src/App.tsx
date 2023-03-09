@@ -16,12 +16,13 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   const colors = [
-    "#068d57",
-    '#a40e17',
-    '#9b320f',
-    '#816302',
-    '#677d0d',
-    '#350da3'
+    "#01ac68",
+    '#ef7750',
+    '#43f2b4',
+    '#f74853',
+    '#c8f648',
+    '#6b46e9',
+    '#f6d157'
   ]
   function randomColor(){
     return Math.floor(Math.random()*(colors.length))
