@@ -1,11 +1,13 @@
 import React from 'react'
 import {NavLink} from "react-router-dom";
 import About from './About';
+import Head from './Head';
 import './styles.css';
 
 const Home = () => {
   return (
     <div className='App-Content'>
+        <Head />
         <About />
         <hr />
         {/* <div className='title'>Tools</div> */}

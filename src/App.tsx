@@ -32,8 +32,10 @@ function App() {
   const listenScrollEvent = (event:Event) => {
     if (window.scrollY > 100) {
       setBodyColor('#0c0d0d')
+      document.documentElement.style.setProperty('--textColor',"#dfddd9")
     } else {
       setBodyColor(prevBodyColor.current)
+      document.documentElement.style.setProperty('--textColor',"#000000")
     }
   }
 
@@ -45,24 +47,6 @@ function App() {
 
   return (
     <div className='App' style={{backgroundColor:bodyColor}}>
-      
-      <div className='head'>
-          <div className='prefix'>
-            <div className='prefix-left'>
-              student
-            </div>
-            <div className='prefix prefix-right'>
-              atlas skilltech university, isdi
-            </div>
-            <div className='prefix prefix-bottom'>
-              2022-2026
-            </div>
-          </div>
-          <hr style={{margin:"30px 5% 150px 0px"}}/>
-          <div className='title'>
-            Mridul Nadar
-          </div>
-      </div>
       <BrowserRouter>
         <ScrollToTop />
         <Routes>

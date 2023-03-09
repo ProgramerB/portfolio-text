@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+:root{
+  --textColor:#000000;
+}
 .App{
   font-family: "Roboto";
-  transition: background-color 1s;
-  color: #dfddd9;
+  transition: background-color 1s, color 1s;
+  /* color: #dfddd9; */
+  color: var(--textColor);
 }
 .head{
   /* background-color: black; */
   font-size: 20px;
-  margin-left: 5%;
+  /* margin-left: 5%; */
   padding-top: 20px;
   margin-bottom: 20px;
   text-transform: uppercase;
   /* text-decoration: underline; */
   /* font-weight: 600; */
+  color: var(--textColor);
 }
 .head .title{
   font-weight: 900;
+  color: var(--textColor);
+
 }
 .head .prefix{
   text-transform: lowercase;
+  
 }
 .head .prefix-left{
   display: inline-block;
@@ -29,11 +37,11 @@
   width: 45%;
   float: right;
   text-align: right;
-  margin-right: 5%;
+  /* margin-right: 5%; */
 }
 .head .prefix-bottom{
   text-align: right;
-  margin-right: 5%;
+  /* margin-right: 5%; */
 }
 
 @media all and (max-width:800px){

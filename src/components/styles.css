@@ -8,9 +8,11 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    /* border-top: 1px solid #ccc; */
+    border-top: 1px solid var(--textColor);
     margin: 1em 0;
     padding: 0;
+    transition: all 1s;
 }
 .nav-holder{
     margin-top: 50px;
@@ -25,13 +27,15 @@ hr {
     /* word-wrap: break-word; */
 }
 .nav-tool{
-    color: #dfddd9;
+    /* color: #dfddd9; */
+    color:  var(--textColor);
     width: 33%;
     display: inline-block;
     /* text-align: center; */
     margin: 0px 0px 0px 0px;
     text-decoration: none;
     font-size: 60px;
+    transition: color 1s;
 }
 .line{
     display: inline;
@@ -49,6 +53,8 @@ hr {
 .title{
     font-size: 50px;
     font-weight: 700;
+    transition: color 1s;
+    padding-top: 50px;
     /* text-decoration: underline; */
 }
 .item-list{
