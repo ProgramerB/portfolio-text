@@ -115,7 +115,7 @@ hr {
 
 @media all and (max-width:800px){
     .App-Content{
-        height: 1200px;
+        height: 1500px;
     }
     .line{
         display: none;
@@ -127,6 +127,9 @@ hr {
         display: block;
         font-size: 40px;
         width: 100%;
+    }
+    .nav-work{
+        display: block;
     }
     .item-head{
         font-size: 35px;
@@ -162,6 +165,7 @@ hr {
     .footer{
         padding-top: 50px;
         height: 200px;
+        display: block;
     }
     .footer .links{
         display: block;
