@@ -48,7 +48,7 @@ hr {
 .about{
     margin: 30px 0 60px 0;
     font-size: 20px;
-    /* text-transform: none ; */
+    /* text-transform: none; */
 }
 
 .title{
@@ -91,7 +91,9 @@ hr {
     font-size: 40px;
     cursor: pointer;
 }
-
+.item-head:hover{
+    text-decoration: underline;
+}
 .footer{
     
     height: 90px;

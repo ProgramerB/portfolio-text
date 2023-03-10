@@ -8,6 +8,7 @@ const Blender = () => {
       <div className='title'>
         blender
       </div>
+      <hr />
       <ItemList items={blender_list}/>
     </div>
   )
