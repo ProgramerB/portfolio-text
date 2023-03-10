@@ -14,19 +14,30 @@ import i41 from '../images/illustrator/illustrator pratice/pratice one.jpg'
 import i42 from '../images/illustrator/illustrator pratice/pratice two.png'
 import i43 from '../images/illustrator/illustrator pratice/pratice three.png'
 
-import i51 from '../images/illustrator/infographic or poster/infographic 1/main.png'
-import i52 from '../images/illustrator/infographic or poster/infographic 1/process one.png'
-
-import logo1 from '../images/illustrator/logo/logo one/main.png'
-import logo2 from '../images/illustrator/logo/logo one/process one.png'
-
+import i51 from '../images/illustrator/infographic or poster/infographic 2/main.png'
+import i52 from '../images/illustrator/infographic or poster/infographic 2/process one.png'
+import logo1 from '../images/illustrator/logo/logo two/main.png'
+import logo2 from '../images/illustrator/logo/logo two/process one.png'
 import poster1 from '../images/illustrator/poster/main.png'
 import poster2 from '../images/illustrator/poster/poster1.jpg'
+import vector1 from '../images/illustrator/vector illusrtration/one vectore/main.png'
 
+//blender
 import blender1 from '../images/blender/blender 1.png'
 import blender3 from '../images/blender/blender 3.png'
 
-import vector1 from '../images/illustrator/vector illusrtration/one vectore/main.png'
+//photoshop
+import image_main from '../images/photoshop/image enhancement/2/main.png' 
+import image_p1 from '../images/photoshop/image enhancement/2/p1.png'
+
+import poster_main from '../images/photoshop/poster/1/main.jpg'
+import poster_1 from '../images/photoshop/poster/1/p1.png'
+import poster_2 from '../images/photoshop/poster/1/p2.png'
+import poster_3 from '../images/photoshop/poster/1/p3.png'
+import vinyl_main from '../images/photoshop/vinly cover/main.png'
+// import vinyl_1 from '../images/photoshop/vinly cover/p1.png'
+// import vinyl_2 from '../images/photoshop/vinly cover/p2.png'
+// import vinyl_3 from '../images/photoshop/vinly cover/p3.png'
 export type Item = {
     id: string
     name: string
@@ -37,6 +48,37 @@ export interface ItemProp{
     items:Item[]
 }
 export const photoshop_list:Item[] = [
+    {
+        id:'1',
+        name:'Image enhancement',
+        desc: '',
+        images: [
+            image_main,
+            image_p1,
+        ]
+    },
+    {
+        id:'2',
+        name:'poster',
+        desc: '',
+        images: [
+            poster_main,
+            poster_1,
+            poster_2,
+            poster_3,
+        ]
+    },
+    {
+        id:'3',
+        name:'vinyl cover',
+        desc: '',
+        images: [
+            vinyl_main,
+            // vinyl_1,
+            // vinyl_2,
+            // vinyl_3,
+        ]
+    },
 ]
 
 export const illustrator_list:Item[] = [
