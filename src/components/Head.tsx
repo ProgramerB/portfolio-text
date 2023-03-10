@@ -8,7 +8,7 @@ const Head = () => {
               student
             </div>
             <div className='prefix prefix-right'>
-              atlas skilltech university, isdi
+              atlas skilltech university, ISDI
             </div>
             <div className='prefix prefix-bottom'>
               2022-2026
