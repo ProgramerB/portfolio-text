@@ -3,8 +3,11 @@ import React from 'react'
 const About = () => {
   return (
     <div className='about'>
-      About Section
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suspendisse faucibus interdum posuere lorem ipsum. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Interdum consectetur libero id faucibus nisl tincidunt eget. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Mauris cursus mattis molestie a iaculis at erat pellentesque. Tortor at auctor urna nunc. Dignissim sodales ut eu sem. Mauris in aliquam sem fringilla ut morbi. Dictum sit amet justo donec. Turpis tincidunt id aliquet risus feugiat in ante metus.
+      I'm from mumbai, India, and on a pathway to become an aspiring communication designer. 
+      <br/>One can say that my career started when I asked my mom, -“I wanna meet them” as I pointed at tom &
+      jerry paying on the television, Her reply was -”they aren't real their are just cartoons, they are drawn and animated”.
+      <br/>And this made me realise wait a minute, so I can just create them.
+      <br/>thus bringing me to this moment in time. doing what i love -designing.
     </div>
   )
 }

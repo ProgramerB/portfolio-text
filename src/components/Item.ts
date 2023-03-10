@@ -1,4 +1,18 @@
-import poster1 from '../images/illustrator/poster/poster1.png'
+//illustrattor
+import i3d11 from '../images/illustrator/3d object/3d 1/3d 1.png'
+import i3d12 from '../images/illustrator/3d object/3d 1/process one.png'
+
+import i3d21 from '../images/illustrator/3d object/3d 2/3d 2.png'
+import i3d22 from '../images/illustrator/3d object/3d 2/process one.png'
+import i3d23 from '../images/illustrator/3d object/3d 2/process two.png'
+
+import i3d31 from '../images/illustrator/3d object/3d 3/3d 3.png'
+import i3d32 from '../images/illustrator/3d object/3d 3/process one.png'
+import i3d33 from '../images/illustrator/3d object/3d 3/process two.png'
+
+import i41 from '../images/illustrator/illustrator pratice/pratice one.jpg'
+import i42 from '../images/illustrator/illustrator pratice/pratice two.png'
+import i43 from '../images/illustrator/illustrator pratice/pratice three.png'
 export type Item = {
     id: string
     name: string
@@ -44,44 +58,46 @@ export const photoshop_list:Item[] = [
 ]
 
 export const illustrator_list:Item[] = [
-    {
-        id:'1',
-        name:'3d abstracts/objects',
-        desc: 'blue',
-        images: [
-            "http://via.placeholder.com/640x360"
-        ]
-    },
+    // {
+    //     id:'1',
+    //     name:'3d objects 1',
+    //     desc: '',
+    //     images: [
+    //         i3d11,
+    //         i3d12,
+    //     ]
+    // },
     {
         id:'2',
-        name:'practice work',
-        desc: '    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        name:'3d objects',
+        desc: '',
         images: [
-            "http://via.placeholder.com/300x300",
-            "http://via.placeholder.com/300x300",
-            "http://via.placeholder.com/300x300"
+            i3d21,
+            i3d22,
+            i3d23,
         ]
     },
-    {
-        id:'3',
-        name:'logo',
-        desc: 'red',
-        images: [
-            "http://via.placeholder.com/300x300",
-            "http://via.placeholder.com/300x300",
-            "http://via.placeholder.com/300x300"
-        ]
-    },
+    // {
+    //     id:'3',
+    //     name:'3d objects 3',
+    //     desc: '',
+    //     images: [
+    //         i3d31,
+    //         i3d32,
+    //         i3d33,
+    //     ]
+    // },
     {
         id:'4',
-        name:'infographics',
-        desc: 'red',
+        name:'illustrator practice',
+        desc: '',
         images: [
-            poster1,
-            "http://via.placeholder.com/300x300",
-            "http://via.placeholder.com/300x300"
+            i41,
+            i42,
+            i43,
         ]
-    }
+    },
+    
 ]
 
 export const blender_list:Item[] = [
