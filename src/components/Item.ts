@@ -1,14 +1,14 @@
 //illustrattor
-import i3d11 from '../images/illustrator/3d object/3d 1/3d 1.png'
-import i3d12 from '../images/illustrator/3d object/3d 1/process one.png'
+// import i3d11 from '../images/illustrator/3d object/3d 1/3d 1.png'
+// import i3d12 from '../images/illustrator/3d object/3d 1/process one.png'
 
 import i3d21 from '../images/illustrator/3d object/3d 2/3d 2.png'
 import i3d22 from '../images/illustrator/3d object/3d 2/process one.png'
 import i3d23 from '../images/illustrator/3d object/3d 2/process two.png'
 
-import i3d31 from '../images/illustrator/3d object/3d 3/3d 3.png'
-import i3d32 from '../images/illustrator/3d object/3d 3/process one.png'
-import i3d33 from '../images/illustrator/3d object/3d 3/process two.png'
+// import i3d31 from '../images/illustrator/3d object/3d 3/3d 3.png'
+// import i3d32 from '../images/illustrator/3d object/3d 3/process one.png'
+// import i3d33 from '../images/illustrator/3d object/3d 3/process two.png'
 
 import i41 from '../images/illustrator/illustrator pratice/pratice one.jpg'
 import i42 from '../images/illustrator/illustrator pratice/pratice two.png'
