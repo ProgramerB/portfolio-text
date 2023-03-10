@@ -23,6 +23,9 @@ import logo2 from '../images/illustrator/logo/logo one/process one.png'
 import poster1 from '../images/illustrator/poster/main.png'
 import poster2 from '../images/illustrator/poster/poster1.jpg'
 
+import blender1 from '../images/blender/blender 1.png'
+import blender3 from '../images/blender/blender 3.png'
+
 import vector1 from '../images/illustrator/vector illusrtration/one vectore/main.png'
 export type Item = {
     id: string
@@ -115,6 +118,22 @@ export const illustrator_list:Item[] = [
 ]
 
 export const blender_list:Item[] = [
+    {
+        id:'1',
+        name:'glass bottle',
+        desc: '',
+        images: [
+            blender1
+        ]
+    },
+    {
+        id:'2',
+        name:'dice',
+        desc: '',
+        images: [
+            blender3
+        ]
+    },
 
 ]
 export const video_list:Item[] = [
