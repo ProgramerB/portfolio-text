@@ -29,7 +29,7 @@ const ItemList = (list:ItemProp) => {
         <img className='item-main-image' src={images[0]} alt="kk"/>
         <div className='item-side-images'>
           {
-            images.map((image)=>{
+            images.slice(1).map((image)=>{
               return(
                 <img className='item-image' src={image} alt="kk"/>
               )

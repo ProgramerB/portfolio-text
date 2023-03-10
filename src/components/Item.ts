@@ -2,7 +2,7 @@
 // import i3d11 from '../images/illustrator/3d object/3d 1/3d 1.png'
 // import i3d12 from '../images/illustrator/3d object/3d 1/process one.png'
 
-import i3d21 from '../images/illustrator/3d object/3d 2/3d 2.png'
+import i3d21 from '../images/illustrator/3d object/3d 2/main.png'
 import i3d22 from '../images/illustrator/3d object/3d 2/process one.png'
 import i3d23 from '../images/illustrator/3d object/3d 2/process two.png'
 
@@ -13,6 +13,17 @@ import i3d23 from '../images/illustrator/3d object/3d 2/process two.png'
 import i41 from '../images/illustrator/illustrator pratice/pratice one.jpg'
 import i42 from '../images/illustrator/illustrator pratice/pratice two.png'
 import i43 from '../images/illustrator/illustrator pratice/pratice three.png'
+
+import i51 from '../images/illustrator/infographic or poster/infographic 1/main.png'
+import i52 from '../images/illustrator/infographic or poster/infographic 1/process one.png'
+
+import logo1 from '../images/illustrator/logo/logo one/main.png'
+import logo2 from '../images/illustrator/logo/logo one/process one.png'
+
+import poster1 from '../images/illustrator/poster/main.png'
+import poster2 from '../images/illustrator/poster/poster1.jpg'
+
+import vector1 from '../images/illustrator/vector illusrtration/one vectore/main.png'
 export type Item = {
     id: string
     name: string
@@ -23,38 +34,6 @@ export interface ItemProp{
     items:Item[]
 }
 export const photoshop_list:Item[] = [
-    {
-        id:'1',
-        name:'poster',
-        desc: 'blue',
-        images: [
-            "http://via.placeholder.com/640x360"
-        ]
-    },
-    {
-        id:'2',
-        name:'vinyl cover',
-        desc: 'red',
-        images: [
-            "http://via.placeholder.com/300x300"
-        ]
-    }, 
-    {
-        id:'3',
-        name:'image enhancement',
-        desc: 'red',
-        images: [
-            "http://via.placeholder.com/300x300"
-        ]
-    },
-    {
-        id:'4',
-        name:'city stories',
-        desc: 'red',
-        images: [
-            "http://via.placeholder.com/300x300"
-        ]
-    }
 ]
 
 export const illustrator_list:Item[] = [
@@ -97,45 +76,55 @@ export const illustrator_list:Item[] = [
             i43,
         ]
     },
+    {
+        id:'5',
+        name:'info graphics',
+        desc: '',
+        images: [
+            i51,
+            i52,
+        ]
+    },
+    {
+        id:'6',
+        name:'logo',
+        desc: '',
+        images: [
+            logo1,
+            logo2,
+        ]
+    },
+    {
+        id:'7',
+        name:'poster',
+        desc: '',
+        images: [
+            poster1,
+            poster2
+        ]
+    },
+    {
+        id:'9',
+        name:'vector illustration',
+        desc: '',
+        images: [
+            vector1
+        ]
+    },
     
 ]
 
 export const blender_list:Item[] = [
-    {
-        id:'1',
-        name:'practices',
-        desc: 'blue',
-        images: [
-            "http://via.placeholder.com/640x360"
-        ]
-    },
+
 ]
 export const video_list:Item[] = [
-    {
-        id:'1',
-        name:'cantasia 2019',
-        desc: 'blue',
-        images: [
-        ]
-    },
+
 ]
 export const photo_list:Item[] = [
-    {
-        id:'1',
-        name:'landscape',
-        desc: 'blue',
-        images: [
-        ]
-    },
+
 ]
 export const art_list:Item[] = [
-    {
-        id:'1',
-        name:'art',
-        desc: 'blue',
-        images: [
-        ]
-    },
+
 ]
 export const design_list:Item[] = [
     
