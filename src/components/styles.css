@@ -1,8 +1,9 @@
 .App-Content{
     width: 90%;
-    height: 1500px;
+    /* height: 1500px; */
     margin: 0 5% 0 5%;
     text-transform: uppercase;
+    min-height: calc(100vh - 90px);
 }
 hr {
     display: block;
@@ -20,6 +21,7 @@ hr {
 }
 .nav-work{
     margin-top: 50px;
+    margin-bottom: 150px;
 }
 .nav-tools{
     /* text-align: center; */
@@ -59,14 +61,22 @@ hr {
     /* text-decoration: underline; */
 }
 .item-list{
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: 100%;
     margin-top: 60px;
 }
-.item-content{
-    display: inline-block;
-    width: 50%;
-    float: right;
+.item-content {
+    display: block;
+    width: 100%;
+}
+.item-block{
+    margin-bottom: 50px;
+}
+.item-block:nth-child(odd){
+    /* background-color: rgb(255, 255, 255); */
+ }
+.item-block:nth-child(even){
+   margin-left: 50%;
 }
 .item-main-image{
     width:600px;
@@ -86,6 +96,8 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
+    width: 50%;
+    float: left;
 }
 .item-head{
     font-size: 40px;
@@ -103,9 +115,10 @@ hr {
 }
 .footer .links{
     text-decoration: none;
-    color: #dfddd9;
+    color: var(--textColor);
     margin-right: 0px;
     margin-left: 5%;
+    transition: all 1s;
 }
 .footer .links:hover{
     text-decoration: underline;
@@ -118,7 +131,7 @@ hr {
 
 @media all and (max-width:800px){
     .App-Content{
-        height: 1500px;
+        /* height: 1500px; */
     }
     .line{
         display: none;
@@ -133,6 +146,7 @@ hr {
     }
     .nav-work{
         display: block;
+        margin-bottom: 100px;
     }
     .item-head{
         font-size: 35px;
@@ -165,9 +179,19 @@ hr {
         margin-right: 1%;
         margin-left: 0;
     }
+    .item-block{
+        margin-top: 20px;
+    }
+    .item-block:nth-child(even){
+        width: 100%;
+        margin-left: 0px;
+    }
+    .item-desc{
+        width: 100%;
+    }
     .footer{
         padding-top: 50px;
-        height: 200px;
+        height: 100px;
         display: block;
     }
     .footer .links{

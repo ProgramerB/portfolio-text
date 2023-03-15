@@ -7,6 +7,7 @@ const Photography = () => {
       <div className='title'>
         photography
       </div>
+      <hr />
       <ItemList items={photo_list} />
     </div>
   )

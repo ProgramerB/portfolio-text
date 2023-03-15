@@ -8,6 +8,7 @@ const Artwork = () => {
       <div className='title'>
         cartoon
       </div>
+      <hr />
       <ItemList items={art_list} />
     </div>
   )

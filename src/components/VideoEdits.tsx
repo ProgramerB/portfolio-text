@@ -8,6 +8,7 @@ const VideoEdits = () => {
       <div className='title'>
         video edits
       </div>
+      <hr />
       <ItemList items={video_list} />
     </div>
   )

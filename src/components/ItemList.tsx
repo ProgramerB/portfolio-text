@@ -1,47 +1,58 @@
 import React, { useState } from 'react'
 import { Item, ItemProp } from './Item'
-import ItemRenderer from './ItemRenderer'
+// import ItemRenderer from './ItemRenderer'
 import empty from '../images/Empty.png'
+// import empty from '../images/blender/blender 1.png'
+
 
 const ItemList = (list:ItemProp) => {
+  
   const [desc, setDesc] = useState<String | null>()
   // const [titleColor, setTitleColor] = useState('white');
-  const [images,setImages] = useState([empty]);
+  const [images,setImages] = useState([{main:empty,side:[empty]},]);
+
   function changeContent(item:Item){
     setDesc(item.desc)
     // setTitleColor("black")
     setImages(item.images)
+    // console.log(images)
   }
 
   return (
-    <div>
+    <>
       <div className='item-list'>
         {list.items.map((item)=>{
                     return(
                         <div className='item' id={item.id} onClick={()=>{changeContent(item)} }>
-                          <ItemRenderer id={item.id} name ={item.name} images={item.images} desc={item.desc} />
+                          <div id={item.id} className='item-head'>
+                            {item.name}
+                          </div>
                         </div>
                     )
             })}
       </div>
       <div className='item-content'>
-        <div className='item-images'>
-        <img className='item-main-image' src={images[0]} alt="kk"/>
-        <div className='item-side-images'>
-          {
-            images.slice(1).map((image)=>{
-              return(
-                <img className='item-image' src={image} alt="kk"/>
-              )
-            })
-          }
-        </div>
-        </div>
         <div className='item-desc'>
-          {desc}
+              {desc}
         </div>
+      {images.map((im)=>(
+        <div className='item-block'>
+          <div className='item-images'>
+            <img className='item-main-image' src={im.main} alt="kk"/>
+            <div className='item-side-images'>
+              {
+                im.side.map((img)=>{
+                  return(
+                    <img className='item-image' src={img} alt="kk"/>
+                  )
+                })
+              }
+            </div>
+          </div>
+        </div>
+      ))}
       </div>
-    </div>
+    </>
   )
 }
 
