@@ -1,5 +1,5 @@
 import React from 'react'
-// import { illustrator_list } from './Item'
+import { illustrator_list } from './Item'
 import ItemList from './ItemList'
 
 const Illustrator = () => {
@@ -9,7 +9,7 @@ const Illustrator = () => {
         illustrator
       </div>
       <hr />
-      {/* <ItemList items={illustrator_list}/> */}
+      <ItemList items={illustrator_list}/>
     </div>
   )
 }
