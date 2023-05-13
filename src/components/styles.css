@@ -74,6 +74,7 @@ hr {
 }
 .item-block:nth-child(odd){
     /* background-color: rgb(255, 255, 255); */
+    margin-left: 50%;
  }
 .item-block:nth-child(even){
    margin-left: 50%;

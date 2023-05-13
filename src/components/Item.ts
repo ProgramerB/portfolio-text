@@ -19,6 +19,10 @@ import vinyl_main from '../images/photoshop/vinly cover/main.png'
 import vinyl_1 from '../images/photoshop/vinly cover/p1.png'
 import vinyl_2 from '../images/photoshop/vinly cover/p2.png'
 import vinyl_3 from '../images/photoshop/vinly cover/p3.png'
+import visual1 from '../images/illustrator/illustrator pratice/pratice one.jpg'
+import visual3 from '../images/illustrator/illustrator pratice/pratice three.png'
+import visual2 from '../images/illustrator/illustrator pratice/pratice two.png'
+
 export type Image = {
     main: string
     side: string[]
@@ -93,6 +97,26 @@ export const photoshop_list:Item[] = [
 ]
 
 export const illustrator_list:Item[] = [
+    {
+        id:'1',
+        name:'Visual Story',
+        desc: '',
+        images: [
+            {
+                main:visual1,
+                side:[]
+            },
+            {
+                main:visual3,
+                side:[]
+            },
+            {
+                main:visual2,
+                side:[]
+            },
+
+        ]
+    }
 ]
 
 export const blender_list:Item[] = [
