@@ -13,16 +13,16 @@ const Home = () => {
         <div className='title'>Interest</div>
         <div className='nav-holder'>
             <nav className='nav-tools'>
-                <NavLink className='nav-tool' to="/photoshop" >cycling</NavLink>
+                <NavLink className='nav-tool' to="/cycling" >cycling</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/illustrator">reading</NavLink>
+                <NavLink className='nav-tool' to="/reading">reading</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/blender">gaming</NavLink>
+                <NavLink className='nav-tool' to="/gaming">gaming</NavLink>
             </nav>
             <nav className='nav-tools'>
-                <NavLink className='nav-tool' to="/video" >tribal-art</NavLink>
+                <NavLink className='nav-tool' to="/tribal-art" >tribal-art</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/artwork">tech-ethusiast</NavLink>
+                <NavLink className='nav-tool' to="/tech">tech-ethusiast</NavLink>
                 <div className='line'>|</div>
                 {/* <NavLink className='nav-tool' to="/photography">photography</NavLink> */}
             </nav>

@@ -2,14 +2,14 @@ import React, { useRef } from 'react';
 import './App.css';
 import {BrowserRouter, Routes , Route} from "react-router-dom";
 import Home from './components/Home';
-import Photoshop from './components/Photoshop';
-import Illustrator from './components/Illustrator';
-import Blender from './components/Blender';
+import Cycling from './components/Cycling';
+import Reading from './components/Reading';
+import Gaming from './components/Gaming';
 import { useState, useEffect } from 'react';
 import Footer from './components/Footer';
-import VideoEdits from './components/VideoEdits';
+import TribalArt from './components/TribalArt';
 import Photography from './components/Photography';
-import Artwork from './components/Artwork';
+import Tech from './components/Tech';
 import Designre from './components/Designre';
 import Work from './components/Work';
 import ScrollToTop from './components/ScrollToTop';
@@ -52,12 +52,12 @@ function App() {
         <ScrollToTop />
         <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/photoshop' element={<Photoshop />} />
-            <Route path='/illustrator' element={<Illustrator />} />
-            <Route path="/blender" element={<Blender />} />
-            <Route path="/video" element={<VideoEdits />} />
+            <Route path='/cycling' element={<Cycling />} />
+            <Route path='/reading' element={<Reading />} />
+            <Route path="/gaming" element={<Gaming />} />
+            <Route path="/tribal-art" element={<TribalArt />} />
             <Route path="/photography" element={<Photography />} />
-            <Route path="/artwork" element={<Artwork />} />
+            <Route path="/tech" element={<Tech />} />
             <Route path="/design" element={<Designre />} />
             <Route path="/work" element={<Work/>} />
         </Routes>
