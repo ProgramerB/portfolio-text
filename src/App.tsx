@@ -34,9 +34,12 @@ function App() {
     if (window.scrollY > 100) {
       setBodyColor('#0c0d0d')
       document.documentElement.style.setProperty('--textColor',"#dfddd9")
+      document.documentElement.style.setProperty('--imgInvert',"0.9")
     } else {
       setBodyColor(prevBodyColor.current)
       document.documentElement.style.setProperty('--textColor',"#000000")
+      document.documentElement.style.setProperty('--imgInvert',"0")
+
     }
   }
 

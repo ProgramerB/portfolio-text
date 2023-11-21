@@ -23,6 +23,8 @@
 // import visual3 from '../images/illustrator/illustrator pratice/pratice three.png'
 // import visual2 from '../images/illustrator/illustrator pratice/pratice two.png'
 
+import at_work from '../images/Under_Construction.png'
+
 export type Image = {
     main: string
     side: string[]
@@ -154,6 +156,18 @@ export const illustrator_list:Item[] = [
     
 ]
 export const photoshop_list:Item[] =[
+    // {
+    //     id:'1',
+    //     name:'dice',
+    //     desc: '',
+    //     images: [
+    //                 {
+    //                     main:at_work,
+    //                     side:[]
+    //                 },
+        
+    //             ]
+    // },
 
 ]
 export const video_list:Item[] = [

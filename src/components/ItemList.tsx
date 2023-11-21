@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import { Item, ItemProp } from './Item'
-// import ItemRenderer from './ItemRenderer'
 import empty from '../images/Empty.png'
-// import empty from '../images/blender/blender 1.png'
-
+import under_construction_img from '../images/Under_Construction_BW.png'
 
 const ItemList = (list:ItemProp) => {
   
@@ -20,6 +18,8 @@ const ItemList = (list:ItemProp) => {
 
   return (
     <>
+    <img className='construct-img' src={under_construction_img}/>
+      <hr />
       <div className='item-list'>
         {list.items.map((item)=>{
                     return(

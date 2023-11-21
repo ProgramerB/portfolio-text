@@ -8,6 +8,7 @@ const Work = () => {
       <div className='title'>
         work
       </div>
+      <hr/>
       <ItemList items={work_list} />
     </div>
   )
