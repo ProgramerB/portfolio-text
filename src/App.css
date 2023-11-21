@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300&display=swap'); */
+@font-face {
+  font-family: Roboto;
+  src: url("./Roboto_Flex/RobotoFlex-VariableFont_GRAD\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf") format("truetype");
+}
 :root{
   --textColor:#000000;
   --imgInvert: 0;
 }
 .App{
   font-family: "Roboto";
+  font-weight: 300;
   transition: background-color 1s, color 1s;
   /* color: #dfddd9; */
   color: var(--textColor);
@@ -21,7 +26,7 @@
   color: var(--textColor);
 }
 .head .title{
-  font-weight: 900;
+  font-weight: 400;
   color: var(--textColor);
 
 }

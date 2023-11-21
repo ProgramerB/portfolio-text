@@ -32,7 +32,7 @@ const Home = () => {
         </nav> */}
         <hr />
         <nav className='nav-tools nav-work'>
-            <NavLink className='nav-tool' to="/work" >work</NavLink>
+            <NavLink className='nav-tool' to="/work" >Work</NavLink>
         </nav>
     </div>
   )

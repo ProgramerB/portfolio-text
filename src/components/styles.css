@@ -55,7 +55,7 @@ hr {
 
 .title{
     font-size: 65px;
-    font-weight: 700;
+    /* font-weight: 400; */
     transition: color 1s;
     padding-top: 50px;
     text-transform:capitalize;
@@ -109,10 +109,9 @@ hr {
     text-decoration: underline;
 }
 .footer{
-    
     height: 90px;
     font-size: 20px;
-    font-weight: 550;
+    /* font-weight: 1000; */
     text-transform: lowercase;
 }
 .footer .links{
@@ -120,7 +119,7 @@ hr {
     color: var(--textColor);
     margin-right: 0px;
     margin-left: 5%;
-    transition: all 1s;
+    transition: color 1s;
 }
 .footer .links:hover, .footer .email:hover{
     text-decoration: underline;
@@ -131,7 +130,7 @@ hr {
     color: var(--textColor);
     float: right;
     margin-right: 5%;
-    transition: all 1s;
+    transition: color 1s;
 }
 
 .construct-img{
