@@ -10,21 +10,21 @@ const Home = () => {
         <Head />
         <About />
         <hr />
-        {/* <div className='title'>Tools</div> */}
+        <div className='title'>Interest</div>
         <div className='nav-holder'>
             <nav className='nav-tools'>
-                <NavLink className='nav-tool' to="/photoshop" >photoshop</NavLink>
+                <NavLink className='nav-tool' to="/photoshop" >cycling</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/illustrator">illustrator</NavLink>
+                <NavLink className='nav-tool' to="/illustrator">reading</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/blender">blender</NavLink>
+                <NavLink className='nav-tool' to="/blender">gaming</NavLink>
             </nav>
             <nav className='nav-tools'>
-                <NavLink className='nav-tool' to="/video" >video edits</NavLink>
+                <NavLink className='nav-tool' to="/video" >tribal-art</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/artwork">cartoon</NavLink>
+                <NavLink className='nav-tool' to="/artwork">tech-ethusiast</NavLink>
                 <div className='line'>|</div>
-                <NavLink className='nav-tool' to="/photography">photography</NavLink>
+                {/* <NavLink className='nav-tool' to="/photography">photography</NavLink> */}
             </nav>
         </div>
         {/* <nav className='nav-tools'>

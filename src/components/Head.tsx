@@ -4,19 +4,19 @@ const Head = () => {
   return (
 <div className='head'>
           <div className='prefix'>
-            <div className='prefix-left'>
-              student
-            </div>
+            {/* <div className='prefix-left'>
+              Software Developer
+            </div> */}
             <div className='prefix prefix-right'>
-              atlas skilltech university, ISDI
+              Software Developer
             </div>
-            <div className='prefix prefix-bottom'>
-              2022-2026
-            </div>
+            {/* <div className='prefix prefix-bottom'>
+              2022-Current
+            </div> */}
           </div>
           <hr style={{margin:"30px 0px 100px 0px"}}/>
           <div className='title'>
-            Mridul Nadar
+            Bhavish Nadar
           </div>
       </div>  )
 }

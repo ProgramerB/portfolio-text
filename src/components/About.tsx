@@ -3,11 +3,10 @@ import React from 'react'
 const About = () => {
   return (
     <div className='about'>
-      I'm from mumbai, India, and on a pathway to become an aspiring communication designer. 
-      <br/>One can say that my career started when I asked my mom, -“I wanna meet them” as I pointed at tom &
-      jerry playing on the television, Her reply was -”they aren't real their are just cartoons, they are drawn and animated”.
-      <br/>And this made me realise wait a minute, so I can just create them.
-      <br/>thus bringing me to this moment in time. doing what i love -designing.
+      Bhavish Nadar here, I am a creator not always in an artistic sense but in a more boring techy way. <br/><br/>
+      When I found that the whole world pretty much runs on binary numbers firing here and there it sparked my curiosity to dive deep into it.<br/><br/>
+      And so here I am finding, learning and creating new boring stuff which people call programming.<br/><br/>
+      Other that that, I like to draw, listen to mostly jazz and watch dumb aggressive cats. 
     </div>
   )
 }
