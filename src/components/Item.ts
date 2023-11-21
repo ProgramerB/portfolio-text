@@ -23,7 +23,7 @@
 // import visual3 from '../images/illustrator/illustrator pratice/pratice three.png'
 // import visual2 from '../images/illustrator/illustrator pratice/pratice two.png'
 
-import at_work from '../images/Under_Construction.png'
+// import at_work from '../images/Under_Construction.png'
 
 export type Image = {
     main: string
