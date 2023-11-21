@@ -18,8 +18,9 @@ const ItemList = (list:ItemProp) => {
 
   return (
     <>
-    <img className='construct-img' src={under_construction_img}/>
+      <img className='construct-img' src={under_construction_img} alt='Under Construction'/>
       <hr />
+
       <div className='item-list'>
         {list.items.map((item)=>{
                     return(
