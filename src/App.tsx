@@ -18,32 +18,41 @@ function App() {
   const colors = [
     "#01ac68",
     '#ef7750',
-    '#43f2b4',
-    '#f74853',
     '#c8f648',
-    '#6b46e9',
-    '#f6d157'
+    '#f6d157',
+    '#A367B1',
+    '#F3F8FF',
+    '#8ACDD7',
+    '#FFC0D9',
+    '#AE445A',
+    '#6499E9',
+    '#419197'
   ]
   function randomColor(){
     return Math.floor(Math.random()*(colors.length))
   }
-
-  const [bodyColor, setBodyColor] = useState(colors[randomColor()])
+ 
+  const num = randomColor()
+  const [bodyColor, setBodyColor] = useState(colors[num])
   const prevBodyColor = useRef(bodyColor)
-  const listenScrollEvent = (event:Event) => {
-    if (window.scrollY > 100) {
-      setBodyColor('#0c0d0d')
-      document.documentElement.style.setProperty('--textColor',"#dfddd9")
-      document.documentElement.style.setProperty('--imgInvert',"0.9")
-    } else {
-      setBodyColor(prevBodyColor.current)
-      document.documentElement.style.setProperty('--textColor',"#000000")
-      document.documentElement.style.setProperty('--imgInvert',"0")
-
-    }
-  }
+  
 
   useEffect(() => {
+    const listenScrollEvent = (event:Event) => {
+      if (window.scrollY > 100) {
+        // setBodyColor('#0c0d0d')
+        setBodyColor('#1f1f1f')
+        // document.documentElement.style.setProperty('--textColor',"#dfddd9")
+        document.documentElement.style.setProperty('--textColor',prevBodyColor.current)
+        document.documentElement.style.setProperty('--imgInvert',"0.9")
+      } else {
+        setBodyColor(prevBodyColor.current)
+        document.documentElement.style.setProperty('--textColor',"#000000")
+        document.documentElement.style.setProperty('--imgInvert',"0")
+  
+      }
+    }
+
     window.addEventListener('scroll', listenScrollEvent);
     return () =>
       window.removeEventListener('scroll', listenScrollEvent);
